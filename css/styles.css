@@ -24,7 +24,6 @@ body, html{
     background-color: transparent;
 }
 
-
 .img-parallax1{
     opacity: 0.75;
     background-image: url(../img/parallax1.jpg);
@@ -50,4 +49,55 @@ body, html{
     padding: 12px 24px!important;
     text-align: center;
     font-size: 24px;
+}
+
+.contenedor-Padre{
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0px;
+    text-align: center;
+    color: #777
+}
+
+.contenedor-perfil{
+    display: flex;
+    padding: 20px 0px;
+    
+}
+
+.foto-opacidad{
+    opacity: 0.75;
+}
+
+.foto-opacidad:hover{
+    opacity: 1;
+}
+
+.contenedor-infoFoto{
+    text-align: justify;
+}
+
+.contenedorHabilidades{
+    text-align: center;
+}
+
+.contenedorHabilidades p{
+    letter-spacing: 13px;
+    padding: 10px 0px;
+    margin: 0;
+    text-align: left;
+    font-size: large;
+}
+
+.contenedorPorcentajePadre{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorPorcentaje{
+    width: 100%;
+    background-color: #777;
+    color: aliceblue;
+    padding: 5px 0px;
 }
