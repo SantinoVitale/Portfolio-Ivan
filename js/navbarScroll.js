@@ -2,8 +2,8 @@ window.onscroll = function() {myFunction()};
 function myFunction() {
     var navbar = document.getElementById("NavBar");
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "container-fluid" + " p-0" + " w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        navbar.className = "container-fluid" + " p-0" + " color-barra" + " header-barra" + " animacion-barra";
     } else {
-        navbar.className = navbar.className.replace("w3-bar w3-card w3-animate-top w3-white", "");
+        navbar.className = navbar.className.replace("color-barra header-barra animacion-barra", "");
     }
 }
